@@ -1,5 +1,6 @@
 body {
 	background: url("bg.jpg") no-repeat center center fixed;
+	background-size: 100% 100%;
 }
 
 h1 {
@@ -12,4 +13,5 @@ div h1 {
     top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
+    vertical-align: middle;
 }
